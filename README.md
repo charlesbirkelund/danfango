@@ -32,7 +32,7 @@ A desktop app for booking movie tickets, built in Java by a team of four for CS 
 
 - Built the entire customer app in Swing: login and signup, showtimes, the seat map, checkout, the ticket list with refunds, and account and card settings
 - Built the server the app connects to: a text command protocol over sockets, one thread per connected client, and locking around shared account and schedule data
-- Wrote the code that saves and loads accounts and the weekly schedule using Java serialization
+- Wrote the serialization-based save and load code for accounts and the weekly schedule
 - Earlier in the project, built the console version of the app, which set the screens and flow the app later followed, along with its tests
 - Changed the existing classes (accounts, schedule, movies, theaters) to work with the app and server, and fixed synchronization and data-saving bugs in them
 
@@ -74,6 +74,5 @@ The hardest part was concurrency. Putting a lock around shared data isn't enough
 
 ## Contact
 
-- LinkedIn: [your LinkedIn URL]
-- Email: [your email]
-- Resume: [link, optional]
+- LinkedIn: https://www.linkedin.com/in/charles-birkelund/
+- Email: charliebirkelund@gmail.com
